@@ -30,7 +30,7 @@ This project is created in Segger Embedded Studio, but will be easily ported to 
 
 - Easy to use. Creating BLE device applications in days, not weeks
 
-- Providing 3 example projects and will run with 0 or minimum hardware dependency.
+- Providing 3 download-and-run example projects with 0 or minimum hardware dependency.
 
 ## Project Folders
 
