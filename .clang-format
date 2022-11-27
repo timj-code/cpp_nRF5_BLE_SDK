@@ -1,0 +1,13 @@
+BasedOnStyle: WebKit
+BreakBeforeBraces: Allman
+AlignConsecutiveAssignments: false
+#AlignConsecutiveBitFields: true
+AlignConsecutiveDeclarations: true
+AlignConsecutiveMacros: true
+AlignTrailingComments: true
+SpacesBeforeTrailingComments: 8
+TabWidth: 4
+UseTab: ForContinuationAndIndentation
+PointerAlignment: Left
+SpaceBeforeAssignmentOperators: true
+
