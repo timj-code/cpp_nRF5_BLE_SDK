@@ -20,9 +20,6 @@ adv_device_t AdvDevice;
 
 int main()
 {
-	uint32_t result;
-	uint32_t PendingIRQ;
-
     AdvDevice.Adv.set_adv_param(&PUBLIC_NONCONNECTABLE_ADV_PARAM);
 	AdvDevice.Adv.set_timing(400, 100);        // (Interval, Duration). Interval in 0.625ms units, Duration in
 												// 10ms units

@@ -21,8 +21,6 @@ nrf_pin_t P0_17(17);
 
 int main()
 {
-	uint32_t result;
-
 	P0_17.set_output();
 	P0_17.set_0();
 

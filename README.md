@@ -24,7 +24,7 @@ This project is created in Segger Embedded Studio, but will be easily ported to 
 
 - Light Weight. The whole SDK for BLE peripheral devices consists of only 8 .cpp files.
 
-- Fully functional. Includes all the functions a typical BLE device will need including bonding, ready for commercial use.
+- Fully functional. Includes all the features a typical BLE device will need including bonding.
 
 - High efficiency. Code size is only 4.2k for the Blood Pressure example in Release mode (excluding SoftDevice itself).
 
@@ -56,9 +56,31 @@ This project is created in Segger Embedded Studio, but will be easily ported to 
 
 `./user`  If you create your own project, it's suggested you put all the user generated files here. The simplest way is to copy an example project to here and modify it according to your needs.
 
+## Naming Conventions
+
+- All function names: use snake casing, example: 
+  
+  add_to_service()
+
+- Classes and structures: use snake casing ended with “_t”, example: 
+  
+  class    bp_service_t
+
+- Variables(except pointers): use pascal casing, if there are abbreviations, the abbreviation will keep its original form. example: 
+  
+  uint16_t    TMR0Counter
+
+- Pointers: use camel casing starting with “p”. example: 
+  
+  uint8_t*    pTarget
+
+- Constants, enums: all caps snake casing. example: 
+  
+  const uint8_t     BUFFER_SIZE=128
+
 ## Getting Started
 
-#### 1. Clone or download SDK to your harddrive
+#### 1. Clone or download SDK to your hard drive
 
 #### 2. Create your own or open an example project with Segger Embedded Studio
 
